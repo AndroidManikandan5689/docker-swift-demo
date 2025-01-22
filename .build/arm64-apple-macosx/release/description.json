@@ -1,0 +1,216 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MyApp-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/sources",
+      "importPath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MyApp",
+      "moduleOutputPath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.swiftmodule",
+      "objects" : [
+        "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-swift-version",
+        "5",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MyApp_main",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "docker"
+      ],
+      "outputFileMapPath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/Sources/main.swift"
+      ],
+      "tempsPath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MyApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MyApp",
+      "-package-name",
+      "docker",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/Sources/main.swift",
+      "-I",
+      "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-swift-version",
+      "5",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MyApp_main",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "docker",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MyApp" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/Sources/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/sources"
+    },
+    "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.product/Objects.LinkFileList"
+    },
+    "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

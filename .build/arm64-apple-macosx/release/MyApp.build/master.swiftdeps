@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "001aab9fc6784621dd834c78622926d818ba75ed7857336733beb4fa8ab2e5cc"
+build_start_time: [1737526956, 591017000]
+build_end_time: [1737526956, 763195000]
+inputs:
+  "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/Sources/main.swift": [1737525257, 487572160]

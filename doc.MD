@@ -1,4 +1,3 @@
-# docker-swift-demo
 1) Create Swift project
 2) Create Dockerfile
 3) Create swift package "swift package init --type executable"

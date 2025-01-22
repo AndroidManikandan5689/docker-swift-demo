@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/MyApp.d",
+    "object": "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/MyApp.o",
+    "swift-dependencies": "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/master.swiftdeps"
+  },
+  "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/Sources/main.swift": {
+    "object": "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/main.swift.o",
+    "swiftmodule": "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/fssdeveloper/Desktop/Manikandan/demo/docker/.build/arm64-apple-macosx/release/MyApp.build/main.swiftdeps"
+  }
+}
