@@ -1,49 +1,129 @@
-# docker-swift-demo
-1) Create Swift project
-2) Create Dockerfile
-3) Create swift package "swift package init --type executable"
-4) docker build -t swift-docker-example .
-5) docker run --rm swift-docker-example
-6) for bash/terminal - docker run -it --rm swift-docker-example bash
+# Docker Swift Demo
 
-Clean / Remove cache or build - rm -rf .build
-Rebuild - swift build -c release
+This repository demonstrates how to create and run a Swift project inside a Docker container. Follow the steps below to set up, build, and manage your Dockerized Swift project.
 
+---
 
-For Manual read docker folder
+## Steps to Set Up and Run the Project
 
-cd ./.build/release/myapp
+### 1. Create a Swift Project
 
-list all docker image
+Initialize a Swift package with the following command:
+```bash
+swift package init --type executable
+```
+
+### 2. Create a Dockerfile
+
+Write a `Dockerfile` to define your container. An example is provided in the repository.
+
+### 3. Build the Docker Image
+
+Build the Docker image for your Swift project:
+```bash
+docker build -t swift-docker-example .
+```
+
+### 4. Run the Docker Container
+
+Run the container using the built image:
+```bash
+docker run --rm swift-docker-example
+```
+
+### 5. Access the Container Bash/Terminal
+
+To open a terminal session inside the container, use:
+```bash
+docker run -it --rm swift-docker-example bash
+```
+
+---
+
+## Clean or Rebuild the Swift Project
+
+### Clean/Remove Cache or Build Files
+
+To remove the build directory:
+```bash
+rm -rf .build
+```
+
+### Rebuild the Project
+
+Rebuild the Swift project in release mode:
+```bash
+swift build -c release
+```
+
+---
+
+## Managing Docker Images and Containers
+
+### List All Docker Images
+```bash
 docker images
-docker rmi abc123456789
+```
 
-or
+### Delete a Docker Image
 
+#### Delete by Image ID:
+```bash
+docker rmi <IMAGE_ID>
+```
+
+#### Delete by Repository and Tag:
+```bash
 docker rmi swift-docker-example:latest
+```
 
-or
+#### Force Delete:
+```bash
+docker rmi -f <IMAGE_ID>
+```
 
-docker rmi -f abc123456789
+### Delete Unused Docker Images
 
-* Delete unused images
+#### Delete Dangling Images:
+```bash
 docker image prune
+```
 
-* Delete all unused images, not just dangling ones
+#### Delete All Unused Images:
+```bash
 docker image prune -a
+```
 
-All active images
+---
+
+## Managing Docker Containers
+
+### List All Active and Stopped Containers
+```bash
 docker ps -a
+```
 
-Stop active image
+### Stop an Active Container
+```bash
+docker stop <CONTAINER_ID>
+```
 
-docker stop <image_id>
+### Remove a Container
+```bash
+docker rm <CONTAINER_ID>
+```
 
-Remove image
-
-docker rm d3e286e4baff
-
-* Remove All Stopped Containers
-
+### Remove All Stopped Containers
+```bash
 docker container prune
+```
+
+---
+
+## Additional Notes
+
+For manual reads or detailed instructions, navigate to the Docker folder:
+```bash
+cd ./.build/release/myapp
+```
 
